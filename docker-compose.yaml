@@ -1,9 +1,13 @@
 version: "3"
 services:
   api:
-      build: ./
-      image: dalongrong/sofa-graphql2rest
-      ports:
-      - "4000:4000"
-
-     
+    build: ./
+    image: dalongrong/sofa-graphql2rest
+    ports:
+    - "4000:4000"
+  webhook:
+    image: jeffail/benthos
+    volumes:
+    - "./configs/webhook.yaml:/benthos.yaml"
+    ports:
+    - "4195:4195"
