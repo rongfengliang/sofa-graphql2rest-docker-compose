@@ -9,7 +9,8 @@
   },
   "bin": "dist/index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "build":"tsc"
   },
   "dependencies": {
     "body-parser": "1.18.3",
