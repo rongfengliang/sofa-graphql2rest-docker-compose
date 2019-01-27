@@ -1,3 +1,7 @@
 node_modules/**
 yarn.lock
 Dockerfile
+sofa-graphql2rest-linux
+sofa-graphql2rest-macos
+sofa-graphql2rest-win.exe
+dist/**

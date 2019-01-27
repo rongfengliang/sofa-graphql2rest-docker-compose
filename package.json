@@ -2,7 +2,12 @@
   "name": "sofa-graphql2rest",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "server.js",
+  "main": "index.ts",
+  "pkg": {
+    "scripts": "dist/**/*.js",
+    "assets":["node_modules/swagger-ui-dist/**/*.*","node_modules/swagger-ui-express/**/*.*"]
+  },
+  "bin": "dist/index.js",
   "scripts": {
     "start": "ts-node index.ts"
   },

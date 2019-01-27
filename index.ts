@@ -4,7 +4,7 @@ import * as bodyParser from 'body-parser';
 import * as useGraphQL from 'express-graphql';
 import * as swaggerUi from 'swagger-ui-express';
 import chalk from 'chalk';
-import { resolve } from 'path';
+// import { resolve } from 'path';
 import { typeDefs } from './types';
 import { resolvers } from './resolvers';
 import * as swaggerDocument from './swagger.json';
@@ -43,7 +43,7 @@ app.use(
   })
 );
 
-openApi.save(resolve(__dirname, './swagger.json'));
+openApi.save('./swagger.json');
 
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
