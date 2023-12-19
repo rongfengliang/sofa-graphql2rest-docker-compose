@@ -21,7 +21,7 @@
     "graphql-subscriptions": "^1.0.0",
     "graphql-tag": "2.10.0",
     "graphql-tools": "4.0.3",
-    "sofa-api": "^0.2.2",
+    "sofa-api": "^0.18.0",
     "swagger-ui-express": "4.0.2"
   },
   "devDependencies": {
