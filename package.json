@@ -33,6 +33,6 @@
     "esm": "^3.0.84",
     "ts-loader": "^5.3.3",
     "ts-node": "7.0.1",
-    "typescript": "3.2.2"
+    "typescript": "3.9.10"
   }
 }
