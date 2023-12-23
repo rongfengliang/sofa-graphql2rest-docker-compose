@@ -22,7 +22,7 @@
     "graphql-tag": "2.10.0",
     "graphql-tools": "4.0.3",
     "sofa-api": "^0.2.2",
-    "swagger-ui-express": "4.0.2"
+    "swagger-ui-express": "5.0.0"
   },
   "devDependencies": {
     "@types/swagger-ui-express": "3.0.0",
